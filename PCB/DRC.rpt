@@ -1,0 +1,232 @@
+** Drc report for LiPad.kicad_pcb **
+** Created on 2026-07-18T08:59:50 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 65 DRC violations **
+[shorting_items]: Items shorting two nets (nets unconnected-(U1-GPIO29{slash}ADC3{slash}A3-Pad4) and Pot A1)
+    Local override; error
+    @(158.8300 mm, 77.3800 mm): PTH pad 4 [unconnected-(U1-GPIO29/ADC3/A3-Pad4)] of U1
+    @(178.2500 mm, 78.0000 mm): Track [Pot A1] on B.Cu, length 25.7500 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1280 mm)
+    Local override; error
+    @(174.0800 mm, 74.8400 mm): PTH pad 12 [+3.3V] of U1
+    @(180.8120 mm, 73.5620 mm): Track [Pot Btn1] on B.Cu, length 20.6990 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1120 mm)
+    Local override; error
+    @(161.5000 mm, 81.1980 mm): Track [Pot A2] on B.Cu, length 14.9480 mm
+    @(174.0800 mm, 82.4600 mm): PTH pad 9 [Column 2] of U1
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1611 mm)
+    Local override; error
+    @(158.8300 mm, 69.7600 mm): PTH pad 1 [Pot A1] of U1
+    @(155.8897 mm, 71.0300 mm): Track [GND] on B.Cu, length 5.5009 mm
+[shorting_items]: Items shorting two nets (nets Pot Btn1 and Row 2)
+    Local override; error
+    @(158.8300 mm, 74.8400 mm): PTH pad 3 [Pot Btn1] of U1
+    @(155.7804 mm, 83.9964 mm): Track [Row 2] on F.Cu, length 10.3724 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1200 mm)
+    Local override; error
+    @(158.8300 mm, 69.7600 mm): PTH pad 1 [Pot A1] of U1
+    @(172.8050 mm, 71.0300 mm): Track [GND] on B.Cu, length 16.9153 mm
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.0379 mm)
+    Local override; error
+    @(176.4480 mm, 81.1980 mm): Track [Pot A2] on B.Cu, length 2.5484 mm
+    @(174.0800 mm, 82.4600 mm): PTH pad 9 [Column 2] of U1
+[clearance]: Clearance violation ( clearance 0.2000 mm; actual 0.1120 mm)
+    Local override; error
+    @(158.8300 mm, 69.7600 mm): PTH pad 1 [Pot A1] of U1
+    @(172.8130 mm, 68.4980 mm): Track [+5V] on B.Cu, length 18.3110 mm
+[starved_thermal]: Thermal relief connection to zone incomplete (layer F.Cu; zone min spoke count 2; actual 1)
+    Local override; error
+    @(134.5000 mm, 68.5000 mm): Zone 'GND' [GND] on F.Cu, priority 0
+    @(178.2500 mm, 80.5000 mm): PTH pad C [GND] of SW10
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(151.0000 mm, 72.0000 mm): Track [LED Data] on B.Cu, length 0.5000 mm
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(197.0000 mm, 69.5000 mm): Arc on Edge.Cuts
+    @(195.0000 mm, 66.5000 mm): Dimension '83.5000 mm' on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(136.0000 mm, 66.5000 mm): Segment on Edge.Cuts
+    @(170.9550 mm, 65.4560 mm): Segment of U1 on F.Silkscreen
+[silk_edge_clearance]: Silkscreen clipped by board edge
+    Rule: board setup constraints silk; warning
+    @(136.0000 mm, 66.5000 mm): Segment on Edge.Cuts
+    @(161.9550 mm, 72.8093 mm): Segment of U1 on F.Silkscreen
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(191.5000 mm, 125.0000 mm): Reference field of D6
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(180.0000 mm, 125.0000 mm): Footprint text of D6 (K)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(142.0000 mm, 144.0000 mm): Footprint text of D7 (K)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(138.5000 mm, 113.0000 mm): Reference field of D12
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(137.6250 mm, 119.7000 mm): Footprint text of D12 (1)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(185.5000 mm, 89.6260 mm): Reference field of SW7
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(185.5000 mm, 127.6260 mm): Reference field of SW9
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(153.5000 mm, 125.0000 mm): Reference field of D4
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(142.0000 mm, 125.0000 mm): Footprint text of D4 (K)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(180.0000 mm, 144.0000 mm): Footprint text of D9 (K)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(172.5000 mm, 125.0000 mm): Reference field of D5
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(161.0000 mm, 125.0000 mm): Footprint text of D5 (K)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(166.5000 mm, 89.6260 mm): Reference field of SW4
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(166.5000 mm, 127.6260 mm): Reference field of SW6
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(147.5000 mm, 89.6260 mm): Reference field of SW1
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(157.0000 mm, 101.0000 mm): Reference field of D16
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(157.8750 mm, 94.3000 mm): Footprint text of D16 (1)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(176.0000 mm, 113.0000 mm): Reference field of D18
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(175.1250 mm, 119.7000 mm): Footprint text of D18 (1)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(176.0000 mm, 132.0000 mm): Reference field of D19
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(175.1250 mm, 138.7000 mm): Footprint text of D19 (1)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(161.0000 mm, 144.0000 mm): Footprint text of D8 (K)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(152.0000 mm, 72.0000 mm): Reference field of D10
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(144.3000 mm, 69.6250 mm): Footprint text of D10 (1)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(166.5000 mm, 108.6260 mm): Reference field of SW5
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(176.0000 mm, 94.0000 mm): Reference field of D17
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(175.1250 mm, 100.7000 mm): Footprint text of D17 (1)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(194.5000 mm, 139.0000 mm): Reference field of D20
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(195.3750 mm, 132.3000 mm): Footprint text of D20 (1)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(138.5000 mm, 94.0000 mm): Reference field of D11
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(137.6250 mm, 100.7000 mm): Footprint text of D11 (1)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(157.0000 mm, 120.0000 mm): Reference field of D15
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(157.8750 mm, 113.3000 mm): Footprint text of D15 (1)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(190.5000 mm, 72.0000 mm): Reference field of D23
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(182.5500 mm, 69.6250 mm): Footprint text of D23 (1)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(191.5000 mm, 106.0000 mm): Reference field of D3
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(180.0000 mm, 106.0000 mm): Footprint text of D3 (K)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(194.5000 mm, 101.0000 mm): Reference field of D22
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(195.3750 mm, 94.3000 mm): Footprint text of D22 (1)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(157.0000 mm, 139.0000 mm): Reference field of D14
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(157.8750 mm, 132.3000 mm): Footprint text of D14 (1)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(172.5000 mm, 106.0000 mm): Reference field of D2
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(161.0000 mm, 106.0000 mm): Footprint text of D2 (K)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(147.5000 mm, 108.6260 mm): Reference field of SW2
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(185.5000 mm, 108.6260 mm): Reference field of SW8
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(147.5000 mm, 127.6260 mm): Reference field of SW3
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(153.5000 mm, 106.0000 mm): Reference field of D1
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(142.0000 mm, 106.0000 mm): Footprint text of D1 (K)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(138.5000 mm, 132.0000 mm): Reference field of D13
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(137.6250 mm, 138.7000 mm): Footprint text of D13 (1)
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(194.5000 mm, 120.0000 mm): Reference field of D21
+[text_thickness]: Text thickness out of range (TrueType font characters with insufficient stroke weight)
+    Rule: board setup constraints silk text thickness; warning
+    @(195.3750 mm, 113.3000 mm): Footprint text of D21 (1)
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Solder mask aperture bridges items with different nets
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Silkscreen clearance
+    - Silkscreen clipped by solder mask
+    - Text height out of range
+    - PTH inside courtyard
+    - NPTH inside courtyard
+    - Footprint component type doesn't match footprint pads
+    - Footprint doesn't match copy in library
+
+** End of Report **

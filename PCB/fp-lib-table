@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "imgs") (type "KiCad") (uri "${KIPRJMOD}/imgs.pretty") (options "") (descr ""))
+)
